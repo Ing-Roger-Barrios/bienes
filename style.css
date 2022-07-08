@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.padre{ 
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .cabeza{
+        
+        display: flex;
+        flex-flow: column nowrap;      
+    }
+        .header{
+            background-color: rgb(251, 251, 251);   
+            display: flex;
+            flex-flow: row nowrap; 
+            align-items: center;
+            padding: 30px;     
+            font-family: bebas;  
+            width: 100%;
+            
+        }
+            .logo{
+                
+                flex: 1 1 auto;
+                
+            }
+                .logo a{
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 25px;
+                }
+                .logo a:hover{
+                    color: rgb(189, 120, 120);
+                    text-decoration: none;
+                }
+            .menu{
+                
+                flex: 5 1 auto;
+                
+            }
+                .menu a{
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    padding: 0 50 px;
+                    letter-spacing: 2px;
+                    margin: 20px;
+                }
+                .menu a:hover{
+                    color: rgb(189, 119, 119);
+                }
+            .redes{
+                
+                flex: 1 1 auto;
+                
+            }
+                .redes a{
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    padding: 0 10 px;
+                    margin: 20px;
+                    letter-spacing: 2px;
+                }
+                .redes a:hover{
+                    color: rgb(189, 119, 119);
+                }
+
+        .imagen{
+            background: url(img/10.jpg);
+            background-position: center;
+            background-attachment: contain;
+            background-size: cover;
+            display: flex;
+            flex-flow: column nowrap;                     
+        }
+            .texto-image{
+                height: 580px;
+                display: flex;
+                flex-flow: column; 
+                color: #fff;              
+            }
+                .texto-image h2 {
+                    font-family: 'Lora', serif;
+                    font-weight: 300;                   
+                }
+
+        .info{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid rgb(209, 209, 209);
+        }
+            .info a{
+                text-decoration: none;
+                font-family: bebas;
+                color: black;
+                font-size: 22px;
+                padding: 15px;
+                margin:40px;
+                background-color: rgb(255, 255, 255);
+
+            }
+    .cuerpo{      
+        
+        padding: 0 100px;
+        color: black;
+        
+    }
+        .items{
+            
+        }
+            .titulo{
+                
+                margin: 60px;
+            }
+            .cards{   
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+                .card{
+                    width: 350px;
+                    color: black !important;
+                    margin: 20px;
+                }
+                    .img{
+                        width: 100%;
+                    }
+            .clientes{
+                margin-top: 60px;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+            }
+                .clientes-lista{
+                    margin: 40px;
+                }
+                    .clientes-lista a{
+                        text-decoration: none;
+                        font-family: bebas;
+                        font-size: 26px;
+                        margin: 50px;
+                    }
+            .contacto{
+                background-color: rgb(139, 79, 6);
+            }
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
